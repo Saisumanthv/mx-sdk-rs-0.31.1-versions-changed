@@ -1,0 +1,13 @@
+[package]
+name = "multisig-external-view-meta"
+version = "0.0.0"
+authors = ["Andrei Marinica <andrei.marinica@dharitri.com>"]
+edition = "2018"
+publish = false
+
+[dependencies.multisig-external-view]
+path = ".."
+
+[dependencies.dharitri-wasm-debug]
+version = "0.4.8"
+path = "../../../../dharitri-wasm-debug"

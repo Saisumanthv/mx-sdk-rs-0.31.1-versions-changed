@@ -1,0 +1,28 @@
+{
+    "networkProvider": {
+        "type": "ProxyNetworkProvider",
+        "url": "https://devnet-gateway.dharitri.com"
+    },
+    "users": {
+        "individuals": [
+            {
+                "name": "whale",
+                "pem": "~/dharitrisdk/testwallets/latest/users/alice.pem"
+            },
+            {
+                "name": "alice",
+                "pem": "~/dharitrisdk/testwallets/latest/users/alice.pem"
+            },
+            {
+                "name": "bob",
+                "pem": "~/dharitrisdk/testwallets/latest/users/bob.pem"
+            }
+        ],
+        "groups": [
+            {
+                "name": "friends",
+                "folder": "~/dharitrisdk/testwallets/latest/users"
+            }
+        ]
+    }
+}
